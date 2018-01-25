@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CellGUI()
+comment0.text=\r\n\ Constructs\ a\ cell,\ defaulting\ it\ to\ a\ dead\ state.\r\n
+comment1.params=alive
+comment1.target=CellGUI(boolean)
+comment1.text=\r\n\ Constructs\ a\ cell,\ defaulting\ its\ next\ alive\ state\ to\ false.\r\n\ \r\n\ @param\ alive\ this\ cells\ current\ living\ state\r\n
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment2.text=\r\n\ Gets\ the\ boolean\ value\ for\ this\ cell's\ state.\r\n\ \r\n\ @return\ alive\ the\ current\ state\ of\ this\ cell\r\n
+comment3.params=
+comment3.target=boolean\ isToBeAlive()
+comment3.text=\r\n\ Gets\ the\ boolean\ value\ for\ this\ cell's\ next\ state.\r\n\ \r\n\ @return\ toBeAlive\ the\ next\ state\ of\ this\ cell\r\n
+comment4.params=currentState
+comment4.target=void\ setAlive(boolean)
+comment4.text=\r\n\ Sets\ the\ current\ state\ of\ this\ cell's\ alive\ state.\r\n\ \r\n\ @param\ currentState\ the\ current\ state\ of\ the\ cell\ to\ be\ updated\r\n
+comment5.params=nextState
+comment5.target=void\ setToBeAlive(boolean)
+comment5.text=\r\n\ Sets\ the\ next\ state\ of\ this\ cell's\ alive\ state.\r\n\ \r\n\ @param\ nextState\ the\ next\ state\ of\ the\ cell\r\n
+numComments=6

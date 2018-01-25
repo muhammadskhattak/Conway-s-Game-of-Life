@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TwoDimensionalGrid()
+comment0.text=\r\n\ Constructs\ a\ new\ grid\ and\ initializes\ all\ cells.\r\n
+comment1.params=columnsAlive\ rowsAlive\ numberOfCellsSet
+comment1.target=TwoDimensionalGrid(int[],\ int[],\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ grid\ and\ intializes\ all\ cells\ with\ the\ specified\r\n\ living\ cells.\r\n\ \r\n\ @param\ columnsAlive\ the\ column\ coordinates\ of\ the\ living\ cell\r\n\ @param\ rowsAlive\ the\ row\ coordinates\ of\ the\ living\ cell\r\n\ @param\ numberOfCellsSet\ the\ number\ of\ pairs\ of\ coordinates\ given.\ Pairs\ should\ have\ the\ same\ index\r\n
+comment2.params=
+comment2.target=void\ printCells()
+comment2.text=\r\n\ Prints\ all\ the\ cells\ on\ the\ grid\ and\ their\ location\ and\ alive\ status.\r\n
+comment3.params=
+comment3.target=void\ checkCellStatus()
+comment3.text=\r\n\ Checks\ the\ status\ of\ the\ cell\ by\ looking\ at\ its\ coordinates\ and\ applying\ the\ appropriate\ test.\r\n
+comment4.params=row\ column
+comment4.target=void\ checkNeighbours(int,\ int)
+comment4.text=\r\n\ Checks\ the\ surrounding\ cells\ of\ a\ specified\ cell.\r\n\ \r\n\ @param\ row\ the\ row\ of\ the\ cell\ being\ checked\r\n\ @param\ column\ the\ column\ of\ the\ cell\ being\ checked\r\n
+comment5.params=counter\ row\ column
+comment5.target=void\ decisionOnCellState(int,\ int,\ int)
+comment5.text=\r\n\ Applies\ the\ rules\ of\ the\ game\ of\ life.\r\n\ \r\n\ @param\ counter\ the\ amount\ of\ living\ cells\ surrounding\ the\ current\ cell\r\n\ @param\ row\ the\ row\ of\ the\ cell\ being\ checked\r\n\ @param\ column\ the\ column\ of\ the\ cell\ being\ checked\r\n
+comment6.params=
+comment6.target=void\ update()
+comment6.text=\r\n\ Updates\ the\ screen\ to\ output\ the\ next\ cycle\ of\ cells.\r\n
+comment7.params=arguments
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ Initializes\ the\ two-dimensional\ grid\ and\ loops\ the\ rule\ applying\ process\ 60\ times.\r\n\ Will\ begin\ with\ 3\ "images"(a\ glider,\ 3\ x\ 1\ line\ and\ a\ beacon)\ to\ test\ the\ rule\ applying\ process.\r\n\ \r\n\ @param\ arguments\ not\ necessary\r\n
+numComments=8

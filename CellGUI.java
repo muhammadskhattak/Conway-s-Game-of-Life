@@ -1,0 +1,83 @@
+/**
+ * A component of a grid that knows if it's alive and if it should be alive after the next cycle.
+ * 
+ * @author Muhammad Khattak Roll# 07 
+ * @version 2015-04-23 1.0
+ */
+public class CellGUI
+{
+    /*
+     * Instance fields
+     */
+    private boolean alive;
+    private boolean toBeAlive;
+
+    /*
+     * constructors
+     */
+    /**
+     * Constructs a cell, defaulting it to a dead state.
+     */
+    public CellGUI()
+    {
+        alive = false;
+        toBeAlive = false;
+    } // end of constructor Cell()
+
+    /**
+     * Constructs a cell, defaulting its next alive state to false.
+     * 
+     * @param alive this cells current living state
+     */
+    public CellGUI(boolean alive)
+    {
+        this.alive = alive;
+        toBeAlive = false;
+    } // end of constructor Cell(boolean alive)
+    
+    /*
+     * accessors
+     */
+    /**
+     * Gets the boolean value for this cell's state.
+     * 
+     * @return alive the current state of this cell
+     */
+    public boolean isAlive()
+    {
+        return alive;
+    } // end of accessor isAlive()
+
+    /**
+     * Gets the boolean value for this cell's next state.
+     * 
+     * @return toBeAlive the next state of this cell
+     */
+    public boolean isToBeAlive()
+    {
+        return toBeAlive;
+    } // end of accessor isToBeAlive()
+
+    /*
+     * mutators
+     */
+    /**
+     * Sets the current state of this cell's alive state.
+     * 
+     * @param currentState the current state of the cell to be updated
+     */    
+    public void setAlive(boolean currentState)
+    {
+        alive = currentState;
+    } // end of method setAlive(boolean currentState)
+
+    /**
+     * Sets the next state of this cell's alive state.
+     * 
+     * @param nextState the next state of the cell
+     */
+    public void setToBeAlive(boolean nextState)
+    {
+        toBeAlive = nextState;
+    } // end of method setToBeAlive(boolean nextState)
+} // end of class Cell
